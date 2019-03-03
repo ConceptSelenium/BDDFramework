@@ -1,0 +1,212 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1134782,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.SetupFirst()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "testing hooks one",
+        "description": "",
+        "id": "to-test-hooks;testing-hooks-one",
+        "after": [
+          {
+            "result": {
+              "duration": 495746,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.tearDownFirst()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 382215097,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "test case one execution step one",
+            "match": {
+              "location": "HooksStepDefinition.test_case_one_execution_step_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 403355,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "step two",
+            "match": {
+              "location": "HooksStepDefinition.step_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1478254,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "step three",
+            "match": {
+              "location": "HooksStepDefinition.step_three()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3244374,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.SetupSecond()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "testing hooks two",
+        "description": "",
+        "id": "to-test-hooks;testing-hooks-two",
+        "after": [
+          {
+            "result": {
+              "duration": 425169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.tearDownSecond()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 301126,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "test case two execution step one",
+            "match": {
+              "location": "HooksStepDefinition.test_case_two_execution_step_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114206,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "step two",
+            "match": {
+              "location": "HooksStepDefinition.step_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 501734,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "step three",
+            "match": {
+              "location": "HooksStepDefinition.step_three()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "testing hooks three",
+        "description": "",
+        "id": "to-test-hooks;testing-hooks-three",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1244710,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "test case three execution step one",
+            "match": {
+              "location": "HooksStepDefinition.test_case_three_execution_step_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 338339,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "step two",
+            "match": {
+              "location": "HooksStepDefinition.step_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 340050,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "step three",
+            "match": {
+              "location": "HooksStepDefinition.step_three()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Third"
+          }
+        ]
+      }
+    ],
+    "name": "To test hooks",
+    "description": "",
+    "id": "to-test-hooks",
+    "keyword": "Feature",
+    "uri": "E:/Work/JavaLearningClasses2/AmazonBDDFramework/src/main/java/featureFiles/hooks.feature"
+  }
+]
